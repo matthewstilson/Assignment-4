@@ -1,0 +1,125 @@
+@import "fonts.css";
+@import "images.css";
+@import "keyframe.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.background--periwinkle{
+   background-color: #ADB2D3;
+   animation: background_grow 5s 25s ease-in forwards;
+}
+
+.background--paynesgray{
+    background-color: #61707D;
+}
+
+.background--oxfordblue{
+    background-color: #161B33;
+}
+
+.background--cambridgeblue{
+    background-color: #75B09C;
+}
+
+h1{
+    font-family: 'lily', sans-serif;
+    color: #d4f2d2;
+    font-size: 90px;
+    margin: 0;
+    text-align: center;
+}
+
+.h2--zoom{
+    font-family: 'allerta', sans-serif;
+    font-size: 125px;
+}
+
+.h2--red{
+    color: #A50104;
+}
+
+.h3--variable{
+    font-family: "unbound";
+    color: #B26700;
+    font-size: 90px;
+    animation: glow_text 20s ease-in-out infinite;
+}
+
+.grid--zoom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid--glow{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 30vh;
+}
+
+.box--sun{           
+    position: absolute;
+    width: fit-content;
+    opacity: 0.8;
+    animation: candle_grow 20s infinite;
+}
+
+.box--text{           
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.grid_grow_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.gap{
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.container_about{
+    width: 75vh;
+    text-align: center;
+    margin: auto;
+}  
+
+.banner{
+    margin: auto;
+    height: 100%;
+    background-color: #A0CA92;
+    padding: 0px;
+}
+
+p{
+    color: #998650;
+    font-size: 25px;
+    padding: 50px;
+}
+

@@ -1,0 +1,292 @@
+@keyframes puddle_grow {
+    
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+
+@keyframes wateringcan_tilt {
+
+    0%  {
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(45deg);
+    }
+
+    75%{
+        transform: rotate(45deg);
+    }
+
+    90%{
+        opacity: 1;
+    }
+
+    100%  {
+        opacity: 0;
+        transform: rotate(45deg)
+    }
+}
+
+@keyframes seed_shake {
+    0% { 
+        transform: translate(0, 0) rotate(0); 
+    }
+    10% { 
+        transform: translate(-10px, 0) rotate(-5deg); 
+    }
+    20% { 
+        transform: translate(10px, 0) rotate(5deg); 
+    }
+    30% { 
+        transform: translate(-10px, 0) rotate(-5deg); 
+    }
+    40% { 
+        transform: translate(10px, 0) rotate(5deg); 
+    }
+    50% { 
+        transform: translate(-10px, 0) rotate(-5deg); 
+    }
+    60% { 
+        transform: translate(10px, 0) rotate(5deg); 
+    }
+    70% { 
+        transform: translate(-10px, 0) rotate(-5deg); 
+    }
+    80% {
+         transform: translate(10px, 0) rotate(5deg); 
+        }
+    90% { 
+        transform: translate(-10px, 0) rotate(-5deg); 
+    }
+    100% {
+         transform: translate(0, 0) rotate(0); 
+        }
+  }
+
+  @keyframes g_sway {
+    
+    0% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+    25%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    50% { 
+        transform: scale(1.5) rotate(-20deg); 
+    }
+    75%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    100% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+  }
+
+  @keyframes g_grow {
+    
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes r_sway {
+    
+    0% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+    25%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    50% { 
+        transform: scale(1.5) rotate(-20deg); 
+    }
+    75%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    100% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+  }
+
+  @keyframes r_grow {
+    
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes o_sway {
+    
+    0% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+    25%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    50% { 
+        transform: scale(1.5) rotate(-20deg); 
+    }
+    75%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    100% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+  }
+
+  @keyframes o_grow {
+    
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes w_sway {
+    
+    0% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+    25%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    50% { 
+        transform: scale(1.5) rotate(-20deg); 
+    }
+    75%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    100% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+  }
+
+  @keyframes w_grow {
+    
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes flower_sway {
+    
+    0% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+    25%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    50% { 
+        transform: scale(1.5) rotate(-20deg); 
+    }
+    75%{
+        transform: scale(1.5) rotate(20deg); 
+    }
+    100% { 
+        transform: scale(1.5) rotate(0deg); 
+    }
+  }
+
+  @keyframes flower_grow {
+    
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  @keyframes background_grow{
+
+    0%{
+        background-color: #ADB2D3;
+    }
+
+    100%{
+        background-color: #ABE0FF;
+    }
+
+  } 
+    
+
+  @keyframes zoom_skew {
+    
+    0% {
+        transform: skew(0deg);
+    }
+    100% {
+        transform: skew(50deg);
+    }
+  }
+
+  @keyframes zoom_rotate {
+    
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+  }
+
+  @keyframes line_move {
+    0%{
+       right: -100%; 
+    }
+    100%{
+        right: 100%;
+    }
+  }
+
+  @keyframes glow_text {
+
+    0%{
+        font-variation-settings: "wght" 200; 
+     }
+    50%{
+        font-variation-settings: "wght" 900; 
+        color: #F2E86D;
+    }
+     100%{
+        font-variation-settings: "wght" 200;
+     }
+}
+
+@keyframes candle_grow {
+
+    0%{
+        width: 175px;
+    }
+
+    50%{
+        width: 300px;
+    }
+
+    100%{
+        width: 175px;
+    }
+    
+}

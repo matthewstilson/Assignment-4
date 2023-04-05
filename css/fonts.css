@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "allerta";
+    src: url(../fonts/AllertaStencil-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "lily";
+    src: url(../fonts/LilyScriptOne-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "freakout--angry";
+    src: url(../fonts/GOFreakout-angry.ttf) format(truetype);
+    font-weight: 100 500;
+}
+
+@font-face {
+    font-family: "freakout--nice";
+    src: url(../fonts/GOFreakout-nice.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "freakout--VH";
+    src: url(../fonts/GOFreakout-nice.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "unbound";
+    src: url(../fonts/Unbounded-VariableFont_wght.ttf) format(truetype);
+    font-weight: 200 900;
+}
+
+

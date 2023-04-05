@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 987 1002">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fe7f2d;
+        filter: url(#outer-glow-2);
+        opacity: .44;
+      }
+
+      .cls-2 {
+        fill: #b26700;
+        filter: url(#outer-glow-1);
+        opacity: .55;
+      }
+
+      .cls-3 {
+        fill: #f2e86d;
+        filter: url(#outer-glow-3);
+        opacity: .8;
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="45"/>
+      <feFlood flood-color="#f2e86d" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="45"/>
+      <feFlood flood-color="#f2e86d" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation="45"/>
+      <feFlood flood-color="#f2e86d" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <ellipse class="cls-2" cx="493.53" cy="501.48" rx="357.6" ry="365.52"/>
+  <ellipse class="cls-1" cx="506.1" cy="496" rx="344.37" ry="352"/>
+  <ellipse class="cls-3" cx="522.66" cy="507.98" rx="321.86" ry="328.99"/>
+</svg>
